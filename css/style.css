@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Dancing+Script&family=Italianno&family=Kumbh+Sans:wght@100;200;700;800&display=swap');
+
+
+.header{
+
+
+    margin: 10px 50px;
+
+    display: flex;
+
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+
+
+   
+
+}
+
+
+.heading{
+
+    flex: 1;
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    font-weight: 900;
+}
+
+.links{
+
+
+    flex: 1;
+
+
+    display: flex;
+
+
+    align-items: center;
+
+    gap: 30px;
+
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+
+   
+
+
+}
+
+
+.rightside{
+
+
+    flex: 1;
+
+
+    display: flex;
+
+
+    align-items: center;
+
+
+    margin-right: 30px;
+
+       
+}
+
+
+img{
+
+    margin: 20px;
+
+
+}
+
+
+hr{
+
+    width: 70%;
+
+    opacity: 20%;
+}
+
+
+.main-section{
+
+
+    display: flex;
+
+   
+
+    justify-content: space-evenly;
+
+
+}
+
+
+.images-section{
+
+
+    flex: 1;
+
+    display: flex;
+
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.large-image{
+
+    height: 500px;
+
+    width: 500px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+.small-image{
+
+    height: 80px;
+
+    width: 80px;
+
+    border-radius: 10px;
+}
+
+.small-image.first{
+
+ opacity : 40%;
+
+ border: 2px solid hsl(26, 100%, 55%);
+}
+
+
+
+.description-section{
+
+    flex: 1;
+
+    display: flex;
+
+
+    flex-direction: column;
+
+    width: 50%;
+
+
+    margin-top: 100px;
+
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+
+    
+
+   
+
+
+   
+}
+
+.small-head{
+
+    margin-bottom: 10px;
+
+    color: hsl(26, 100%, 55%);
+
+
+    font-weight: 700;
+
+    opacity: 70%;
+}
+
+
+.desc{
+
+    width: 50%;
+}
+
+.large-head{
+
+    margin-bottom: 50px;
+
+
+    font-size: 25px;
+
+    font-weight: 900;
+
+    width: 50%;
+
+    opacity: 75%;
+}
+
+.lower-section{
+
+
+    display: flex;
+
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+
+.remove{
+
+    margin: 20px;
+
+
+    font-weight: 600;
+
+    color: hsl(26, 100%, 55%);
+
+
+    font-size: 30px;
+}
+.adding{
+
+
+    margin: 20px;
+
+    color: hsl(26, 100%, 55%);
+
+
+    font-weight: 600;
+
+    font-size: 30px;
+}
+
+.add-to-cart{
+
+
+    border: none;
+
+    padding: 10px;
+
+
+    background-color: hsl(26, 100%, 55%);
+
+    width: 200px;
+
+
+    color: white;
+
+
+    font-weight: bold;
+
+
+    font-size: 13px;
+
+
+    border-radius: 5px;
+}
+
+
+.prices{
+
+    margin: 30px 0px;
+
+    display: flex;
+
+    
+}
+
+.original-price{
+
+    margin-right: 20px;
+
+    font-weight: 900;
+
+    font-size: 25px;
+}
+
+.discount{
+
+    color: hsl(26, 100%, 55%);
+
+    font-weight: bold;
+
+}
+
+.discounted-price{
+
+    text-decoration: line-through;
+
+    opacity: 60%;
+
+    
+}
