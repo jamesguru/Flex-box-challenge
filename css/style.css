@@ -70,6 +70,29 @@
        
 }
 
+.menu{
+
+    display: none;
+}
+
+
+.menu:hover .links{
+
+
+
+        display: flex;
+
+        flex-direction: column;
+
+
+        background-color: black;
+
+        color: white;
+
+
+        cursor: pointer;
+    }
+
 
 img{
 
@@ -296,6 +319,99 @@ hr{
     text-decoration: line-through;
 
     opacity: 60%;
+
+    
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+
+
+    .header{
+
+
+        margin: 10px;
+    }
+
+
+    .links{
+
+
+        display: none;
+    }
+
+
+    .rightside{
+
+
+   
+
+
+    display: flex;
+
+
+    align-items: center;
+
+
+    margin-right: 10px;
+
+       
+}
+    
+    .main-section{
+
+        display: flex;
+
+
+        flex-direction: column;
+    }
+
+
+    .images-section{
+
+        margin: 10px;
+    }
+
+    .description-section{
+
+
+        width: 100%;
+
+        margin: 10px;
+    }
+
+
+    .desc{
+
+
+        width: 100%;
+
+        margin: 10px;
+    }
+
+    .menu{
+
+
+        display: flex;
+    }
+
+    .menu:hover{
+
+
+
+        display: flex;
+
+        cursor: pointer;
+
+        flex-direction: column;
+    }
+
+
+    
+
+    
 
     
 }
